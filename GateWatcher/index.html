@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>GATE WATCHER ver1.01</title>
+    <script text="JavaScript">
+        /****************************
+         *          2017            *
+         *      by Huang Sihao      *
+         *      or hsp20080888      *
+         *   In Tribute To Great    *
+         *     Legend of Zelda      *
+         *  for what you have done  *
+         *  to develop the 9th Art  *
+         *   huangsao_sysu@qq.com   *
+         ****************************/
+    </script>
+    <style type="text/css">
+        .container{
+            margin:0 auto;
+            width:512px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <canvas id="player" width="512" height="480" style="border:solid;position:absolute;z-index:2" >你的浏览器不支持html5，请更新浏览器。</canvas>
+    <canvas id="monster" width="512" height="480" style="border:solid;position:absolute;z-index:1" >你的浏览器不支持html5，请更新浏览器。</canvas>
+    <canvas id="map" width="512" height="480" style="border:solid;position:absolute;z-index:0" >你的浏览器不支持html5，请更新浏览器。</canvas>
+    <canvas id="menu" width="512" height="480" style="border:solid;position:absolute;z-index:3" >你的浏览器不支持html5，请更新浏览器。</canvas>
+
+</div>
+<script text = "javascript" src = "definations.js"></script>
+<script text = "javascript" src = "functions.js"></script>
+<script text = "javascript" src = "main.js"></script>
+<script text = "javascript">
+
+    var switch_central = setInterval(run,FRAME_RATE);
+
+</script>
+</body>
+</html>
