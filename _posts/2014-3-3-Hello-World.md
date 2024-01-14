@@ -2,9 +2,4 @@
 layout: post
 title: Portfolio
 ---
-
-Link to my portfolio!
-
-In development...
-
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+[Link to my portfolio!]([https://github.com/barryclark/jekyll-now](https://hsp20080888.wixsite.com/sihaohuang)https://hsp20080888.wixsite.com/sihaohuang) 
